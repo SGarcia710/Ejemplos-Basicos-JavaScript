@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Cómo funciona el tiempo en JavaScript</title>
-</head>
-<body>
-  <script>
     // console.log('a') 
     //se le manda una función como referencia y no la función directamente porque queremos que se ejecute a los 2 segundos, de lo contrario se ejecutaría inmediatamente pase por esta linea. 
     // setTimeout(() => console.log('b'), 0)
@@ -15,8 +5,4 @@
 
     setTimeout(() => console.log('d'), 2000)
     for ( var i = 0; i < 100000; i++){
-
     }
-  </script>
-</body>
-</html>
